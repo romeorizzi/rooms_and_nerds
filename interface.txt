@@ -12,6 +12,18 @@ procedure longest_play(num_rooms, num_nerds[]) callbacks {
 
 function increasing_monovariant(num_rooms, num_nerds[]);
 
+procedure yield_a_longer_play_avoiding_big_jumps(num_rooms, num_nerds[], num_moves, room_from[], room_to[]) callbacks {
+   function move(room_from, room_to);
+}
+
+procedure yield_a_no_shorter_play_beginning_with_action_on_a_not_peculiar_room(num_rooms, num_nerds[], num_moves, room_from[], room_to[]) callbacks {
+   function move(room_from, room_to);
+}
+
+procedure yield_a_no_shorter_play_beginning_with_action_on_smallest_room_when_all_rooms_peculiar(num_rooms, num_nerds[], num_moves, room_from[], room_to[]) callbacks {
+   function move(room_from, room_to);
+}
+
 main {
     read num_rooms;
     for i to num_rooms {

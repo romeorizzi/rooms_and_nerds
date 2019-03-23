@@ -28,3 +28,14 @@ def increasing_monovariant(num_rooms, num_nerds):
         monovariant += num_nerds[i]
     return monovariant//2
 
+def yield_a_longer_play_avoiding_big_jumps(num_rooms, num_nerds, num_moves, room_from, room_to, move):
+    # TODO
+    pass
+
+def yield_a_no_shorter_play_beginning_with_action_on_a_not_peculiar_room(num_rooms, num_nerds, num_moves, room_from, room_to, move):
+    # TODO
+    pass
+
+def yield_a_no_shorter_play_beginning_with_action_on_smallest_room_when_all_rooms_peculiar(num_rooms, num_nerds, num_moves, room_from, room_to, move):
+    # TODO
+    pass
