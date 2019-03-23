@@ -1,0 +1,22 @@
+function shortest_play_length(num_rooms, num_nerds[]);
+
+procedure longest_play_initial_disposition(num_rooms, num_nerds) callbacks {
+   procedure num_in_room(room_name, num_nerds);
+}
+
+function max_num_moves(num_rooms, num_nerds[]);
+
+procedure longest_play(num_rooms, num_nerds[]) callbacks {
+   function move(room_from, room_to);
+}
+
+function increasing_monovariant(num_rooms, num_nerds[]);
+
+main {
+    read num_rooms;
+    for i to num_rooms {
+      read num_nerds[i];
+    }
+    call risp = shortest_play_length(num_rooms, num_nerds);
+    write risp;
+}

@@ -1,0 +1,16 @@
+[problem]
+title = "Riscaldamento Rotto"
+
+[scoring]
+goals = [
+    "shortes_play",
+    "compute_max_num_moves_small",
+    "compute_max_num_moves_few_rooms",
+    "compute_max_num_moves_large",
+    "initial_disposition",
+    "longest_play_exponential",
+    "longest_play_n_times_moves",
+    "monovariant_correct",
+    "monovarian_upper_bound_exponential",
+    "monovarian_upper_bound_quadratic",
+]
